@@ -1,0 +1,15 @@
+[
+    {
+        "name": "adr",
+        "supplycentre": false,
+        "type": "water",
+        "names": [
+            "adr",
+                "adriatic",
+                "Adriatic Sea"
+        ],
+        "adjacencies": [
+            
+        ]
+    }
+]

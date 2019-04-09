@@ -1,0 +1,60 @@
+{
+    "variant": "Classic",
+    "meta": {
+        "creator": "Alexander Wulf",
+        "version": {
+            "adjudicator": "0.1.0",
+            "maprender": "0.1.0",
+            "dnwmapjson": "0.1.0"
+        }
+    },
+    "map_config": {
+        "tile_types": [
+            {
+                "name": "water"
+            },
+            {
+                "name": "land"
+            },
+            {
+                "name": "coast"
+            }
+        ],
+        "units": [
+            {
+                "name": "army",
+                "range": 1,
+                "can_move_on": [
+                    "land",
+                    "coast"
+                ]
+            }
+        ],
+        "buildmode": "home_centers_only",
+        "startround_number": 1915
+    },
+    "seasons": [
+        {
+            "number": 1,
+            "name": "Spring",
+            "action": "build"
+        }
+    ],
+    "provinces": [
+        {
+            "short": "test",
+            "names": [],
+            "supplycentre": true,
+            "actions": {
+                "army": {
+                    "move": [
+                        "test2"
+                    ],
+                    "support": [
+                        "test3"
+                    ]
+                }
+            }
+        }
+    ]
+}
