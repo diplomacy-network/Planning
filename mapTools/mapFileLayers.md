@@ -1,7 +1,16 @@
 # Layers for the map file
 
 ```
-
-Test
-
+.
+├── scs [group]
+│   └── (unnamed) [object]
+├── units [group]
+│   └── (unnamed) [object]
+├── names [group]
+│   └── (unnamed) [object]
+└── tiles [group]
+    └── tiletype [group]
+        ├── (provinceNameShort) [object]
+        └── (provinceNameShort) [group] = union
+            └── (unionPartAbbreviation (e.g. nc)) [object]
 ```
