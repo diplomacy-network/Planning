@@ -9,7 +9,7 @@
         }
     },
     "map_config": {
-        "tile_types": [
+        "tiletypes": [
             {
                 "name": "water"
             },
@@ -24,14 +24,14 @@
             {
                 "name": "army",
                 "range": 1,
-                "can_move_on": [
+                "canMoveOn": [
                     "land",
                     "coast"
                 ]
             }
         ],
-        "buildmode": "home_centers_only",
-        "startround_number": 1915
+        "buildMode": "home_centers_only",
+        "startroundNumber": 1915
     },
     "seasons": [
         {
@@ -44,7 +44,7 @@
         {
             "short": "test",
             "names": [],
-            "supplycentre": true,
+            "isSupplycentre": true,
             "actions": {
                 "army": {
                     "move": [
@@ -54,6 +54,11 @@
                         "test3"
                     ]
                 }
+            },
+            "svg": {
+                "path": "path",
+                "supplyCentrePositon": "position",
+                "unitPosition"
             }
         }
     ]
