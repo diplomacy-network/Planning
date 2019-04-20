@@ -45,21 +45,28 @@
             "short": "test",
             "names": [],
             "isSupplycentre": true,
-            "actions": {
-                "army": {
-                    "move": [
-                        "test2"
-                    ],
-                    "support": [
-                        "test3"
-                    ]
+            "actions":[
+                {
+                    "id": "src",
+                    "army": {
+                        "move": [
+                            "test2"
+                        ],
+                        "support": [
+                            "test3"
+                        ]
+                    }
                 }
-            },
-            "svg": {
-                "path": "path",
-                "supplyCentrePositon": "position",
-                "unitPosition"
-            }
+            ]
+        }
+    ],
+    "countries": [
+        {
+            "short": "DE",
+            "long": "Germany",
+            "startProvinces": [
+                "kie", "lua"
+            ]
         }
     ]
 }

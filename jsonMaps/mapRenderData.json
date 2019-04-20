@@ -1,0 +1,51 @@
+{
+    "variant": "Classic",
+    "meta": {
+        "creator": "Alexander Wulf",
+        "version": {
+            "adjudicator": "0.1.0",
+            "maprender": "0.1.0",
+            "dnwmapjson": "0.1.0"
+        }
+    },
+    "map_config": {
+        "tiletypes": {
+            "water": {
+                "color": "#808080"
+            }
+        },
+        "units": {
+            "army": {
+                "path": "ljsafgldxf"
+            }
+        }
+    },
+    "provinces":{
+        "provID": {
+            "isSupplyCentre": true,
+            "supplyCentrePositon": {
+                "x": "123px",
+                "y": "123px"
+            },
+            "pathTotal": "path",
+            "properties": [
+                {
+                    "type": "sc",
+                    "unitPosition": {
+                        "x": "123px",
+                        "y": "123px"
+                    }
+                }
+            ]
+        }
+    },
+    "countries": {
+        "DE": {
+            "color": "#989898"
+        }
+    },
+    "sizes": {
+        "font": "nPx",
+        "unit": "6Px"
+    }
+}
