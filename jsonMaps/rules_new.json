@@ -47,7 +47,7 @@
             "isSupplycentre": true,
             "actions":[
                 {
-                    "id": "src",
+                    "id": "nc",
                     "army": {
                         "move": [
                             "test2"

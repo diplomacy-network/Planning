@@ -1,0 +1,32 @@
+{
+    "provinces": [{
+        "short": "test",
+        "tiletype": "water",
+        "isSupplycentre": true,
+        "positionSupplycentre": {
+            "x": "123",
+            "y": "123"
+        },
+        "unionParts": [{
+            "id": "",
+            "unionPartPath": "",
+            "adjacencies": [
+                "bel"
+            ],
+            "unionPartUnitPosition": {
+                "x": "123",
+                "y": "123"
+            },
+            "unionPartNamePosition": {
+                "x": "123",
+                "y": "123"
+            }
+
+        }],
+        "provinceOutlinePath": "d_",
+        "provinceNamePosition": {
+            "x": "123",
+            "y": "123"
+        }
+    }]
+}

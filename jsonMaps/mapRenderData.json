@@ -21,19 +21,28 @@
         }
     },
     "provinces":{
-        "provID": {
+        "provinceID": {
             "isSupplyCentre": true,
             "supplyCentrePositon": {
-                "x": "123px",
-                "y": "123px"
+                "x": "123",
+                "y": "123"
             },
-            "pathTotal": "path",
+            "provinceNamePosition": {
+                "x": "123",
+                "y": "123"
+            },
+            "provinceOutlinePath": "path",
             "properties": [
                 {
                     "type": "sc",
-                    "unitPosition": {
-                        "x": "123px",
-                        "y": "123px"
+                    "": "",
+                    "unionPartUnitPosition": {
+                        "x": "123",
+                        "y": "123"
+                    },
+                    "unionPartNamePosition": {
+                        "x": "123",
+                        "y": "123"
                     }
                 }
             ]
@@ -45,7 +54,7 @@
         }
     },
     "sizes": {
-        "font": "nPx",
-        "unit": "6Px"
+        "font": "n",
+        "unit": "6"
     }
 }
