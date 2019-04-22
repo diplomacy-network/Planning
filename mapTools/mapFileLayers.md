@@ -12,5 +12,6 @@
     └── tiletype [group]
         ├── (provinceNameShort) [object]
         └── (union_provinceNameShort) [group] = union
-            └── (unionPartAbbreviation (e.g. nc)) [object]
+            ├── (unionPartAbbreviation (e.g. nc)) [object]
+            └── (unionProvinceOutline) named main [object]
 ```
