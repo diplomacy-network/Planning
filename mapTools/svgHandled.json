@@ -21,12 +21,17 @@
                 "x": "123",
                 "y": "123"
             }
-
         }],
         "provinceOutlinePath": "d_",
         "provinceNamePosition": {
             "x": "123",
             "y": "123"
         }
-    }]
+    }],
+    "passthroughs": [
+        {
+            "tiletype": "water",
+            "path": ""
+        }
+    ]
 }
