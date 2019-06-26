@@ -1,0 +1,29 @@
+{
+    "api_parameters": {
+        "prefix": "params",
+        "body": [
+          "## Parameters",
+          "",
+          "|Name|Type|Description|",
+          "|---|---|---|",
+          "|$1|$2|$3|"
+        ],
+        "description": "api_parameters"
+      },
+      "api_parameters_line": {
+        "prefix": "pl",
+        "body": [
+          "|$1|$2|$3|"
+        ],
+        "description": "api_parameters_line"
+      },
+      "api_json": {
+        "prefix": "ajson",
+        "body": [
+          "```json",
+          "$1",
+          "```"
+        ],
+        "description": "api_json"
+      }
+}
