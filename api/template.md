@@ -4,7 +4,7 @@
   - [Overview](#Overview)
   - [List all the companies in your account](#List-all-the-companies-in-your-account)
     - [Parameters](#Parameters)
-  - [Response](#Response)
+    - [Response](#Response)
   - [Update a company](#Update-a-company)
     - [Parameters](#Parameters-1)
     - [Example](#Example)
@@ -27,7 +27,7 @@ GET /companies/
 | limit | integer | Indicates the page size.       |
 | page  | integer | Indidcates the page to return. |
 
-## Response
+### Response
 
 ```json
 {
