@@ -25,5 +25,15 @@
           "```"
         ],
         "description": "api_json"
+      },
+      "api-code": {
+        "prefix": "ac",
+        "body": [
+          "```",
+          "$1",
+          "```",
+          ""
+        ],
+        "description": "api-code"
       }
 }
