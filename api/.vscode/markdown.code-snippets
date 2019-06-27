@@ -6,14 +6,16 @@
           "",
           "|Name|Type|Description|",
           "|---|---|---|",
-          "|$1|$2|$3|"
+          "|$1|$2|$3|",
+          "$4"
         ],
         "description": "api_parameters"
       },
       "api_parameters_line": {
         "prefix": "pl",
         "body": [
-          "|$1|$2|$3|"
+          "|$1|$2|$3|",
+          "$4"
         ],
         "description": "api_parameters_line"
       },

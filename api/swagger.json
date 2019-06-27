@@ -8,14 +8,25 @@
 
   "servers": [
     {
-      "url":"https://api.diplomacy-network.com/v0",
-      "description":"Development server"
+      "url": "https://api.diplomacy-network.com/v0",
+      "description": "Development server"
     }
   ],
   "components": {
-    
+    "schemas": {
+      "name": {
+        "type": "object",
+        "properties": {
+          "property": {
+            "type": "integer"
+          },
+          "rgej": {
+            "type": "string"
+          }
+        }
+      }
+    }
   },
- 
 
   "paths": {}
 }

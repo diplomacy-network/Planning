@@ -1,0 +1,44 @@
+{
+    "openapi3-property": {
+        "prefix": "oa3-prop",
+        "body": [
+            "\"${1:propertyname}\": {",
+            "   \"type\": \"${2|integer,string|}\"$3",
+            "}$4"
+        ],
+        "description": "openapi3-property"
+    },
+    "openapi3-path": {
+        "prefix": "oa3-path",
+        "body": [
+          "{",
+          "  \"${1|get,post,delete|}\": {",
+          "    \"summary\": \"$2\",",
+          "    \"operationId\": \"$3\",",
+          "    \"tags\": [\"$4\"],",
+          "    \"parameters\": [",
+          "        $5",
+          "    ],",
+          "    \"responses\": {",
+          "        $6",
+          "     }",
+          "  }",
+          "}"
+        ],
+        "description": "openapi3-path"
+      },
+      "openapi3-parameter": {
+        "prefix": "oa3-param",
+        "body": [
+          "{",
+          "    \"in\": \"${1|path,query|}\",",
+          "    \"name\": \"${2:userID}\",",
+          "    \"schema\": $3,",
+          "    \"required\": \"${4|true,false}\",",
+          "    \"description\": \"$5\"",
+          "}"
+        ],
+        "description": "openapi3-parameter"
+      }
+
+}
