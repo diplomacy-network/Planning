@@ -1,0 +1,21 @@
+{
+  "openapi": "3.0.0",
+
+  "info": {
+    "title": "DNW-Backend",
+    "version": "0.0.0"
+  },
+
+  "servers": [
+    {
+      "url":"https://api.diplomacy-network.com/v0",
+      "description":"Development server"
+    }
+  ],
+  "components": {
+    
+  },
+ 
+
+  "paths": {}
+}
